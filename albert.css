@@ -1,0 +1,45 @@
+.details {
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 48px;
+    row-gap: 48px;
+
+}
+
+
+.detail-item{
+    width: 14vw;
+  }
+  
+  .detail-item h3{
+    margin-bottom: 16px;
+  }
+
+  .proj-intro{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .proj-image{
+    width: 32vw;
+  }
+  
+  .proj-info{
+    width: 32vw;
+  }
+  
+  .proj-info h1{
+    margin-bottom: 16px;
+  }
+  
+  .proj-image img{
+    width: max-content;
+    align-items: center;
+  }

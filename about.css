@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Glysa';
+    src: url('glysa.woff') format('woff'), url('glysa.otf') format('otf');
+  }
+
+.about-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8vh;
+
+}
+
+.about-blurb{
+    margin-left: 5vw;
+    font-family: Montserrat;
+
+  }
+  
+.hello{
+    font-family:'Glysa';
+}
+  
+  body{
+      font-family: 'Glysa';
+      background-color: #f6f6f6;
+      position: absolute;
+      color: #051930;
+  }
+/* 
+
+
+
+
+
+.about-buttons{
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .buttons{
+    margin-top: 16px;
+  }
+
+
+.buttons:hover{
+    box-shadow: 4px 4px 0px #051930;
+  }
+
+.buttons{
+    border: 1px solid #051930;
+    padding: 12px 32px 12px 32px;
+    border-radius: 24px;
+    background-color: #f6f6f6;
+  }
+
+  .b1:hover {
+    background-color: #FCC6CD;
+  }
+  
+  .b2:hover{
+    background-color: #CDB4DD;
+  }
+  
+  .b3:hover{
+    background-color: #92BBDB;
+  } */
+
+
+
+.about-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+    font-family: Montserrat;
+  }
+  
+  .buttons{
+    border: 1px solid #051930;
+    padding: 12px 32px 12px 32px;
+    border-radius: 24px;
+    background-color: #f6f6f6;
+  }
+  
+  p{
+    font-family: Montserrat;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #051930;
+  }
+  
+  .buttons:hover{
+    box-shadow: 4px 4px 0px #051930;
+  }
+  
+  .b1:hover {
+    background-color: #FCC6CD;
+  }
+  
+  .b2:hover{
+    background-color: #FCC6CD;
+  }
+  
+  .b3:hover{
+    background-color: #FCC6CD;
+  }
+  
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 99;
+    font-size: 18px;
+    border: 1px solid #051930;
+    background-color: #f6f6f6;
+    color: #051930;
+    font-family: Montserrat;
+    padding: 12px 32px 12px 32px;
+    border-radius: 24px;
+  }
+  
+  #myBtn:hover {
+    background-color: #FCC6CD;
+    box-shadow: 4px 4px 0px #051930;
+  }
+
+  .about-image img{
+    width: 25vw;
+    margin-left: 0%;
+  }
+
+
+  .footer{
+    
+    background-image:url("gradient.gif") ;
+    height:300px;
+    width:100%;
+    
+    
+    background-size: 100% 100%;
+}

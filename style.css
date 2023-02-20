@@ -1,0 +1,205 @@
+/* header{
+    /* background-image: url ("file:///Users/darianagonzalez/Desktop/DESKTOP/portfolio/gradient.gif"); */
+    /* height: 600px;
+    width:100%;
+    background-size:cover;
+    opacity: 0.9;
+    text-align: center; */
+    
+    
+  
+ header {
+    background:url('gradient.gif') 100% fixed;
+    height:720px;
+    width:100%;
+    
+    font-family: 'Glysa';
+
+    
+    color: #051930;
+    resize: none;
+      
+    background-size:cover;
+    opacity: 0.9;
+    
+  
+}
+
+body{
+  font-family: 'Glysa';
+  background-color: #f6f6f6;
+  
+  color: #051930;
+}
+
+@font-face {
+    font-family: 'Glysa';
+    src: url('glysa.woff') format('woff'), url('glysa.otf') format('otf');
+  }
+
+
+.intro h1 {
+    font-size: 2vw;
+    font-weight: 600;
+    text-align: left;
+    font-family: "Glysa";
+  }
+  
+  .intro h4 {
+    font-size: 1.5vw;
+    font-family: Montserrat;
+    margin-top: 2vh;
+    text-align:left
+  }
+  
+  .intro h6 {
+    font-size: 1.2vw;
+    font-family: Montserrat;
+    text-align: left;
+  }
+
+.intro {
+   
+    /* margin-top: 25vh; */
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+}
+
+/* .intro h1{
+    font-size: 2.3vw;
+    margin-top: 30z;
+  } */
+
+/* .space{
+    height: 2vh;
+} */
+
+
+
+
+
+.index-sec2{
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 3;
+}
+
+.index-sec2 h2{
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.mainwork {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 48px;
+  row-gap: 64px;
+}
+
+.mainwork img{
+  border-radius: 18px;
+  width: 500px
+  
+}
+
+.mainwork img:hover {
+  box-shadow: 8px 8px 36px pink;
+
+}
+
+figcaption {
+  margin-top: 16px;
+  font-family: Glysa;
+  font-size: 24px;
+}
+
+figcaption.fig2{
+  font-family: Montserrat;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.index-sec2 h2{
+  text-align: center;
+  font-family: 'Glysa';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    
+  background-image:url("gradient.gif") ;
+  height:205px;
+  width:100%;
+  text-align: center;
+  font-family: 'glysa';
+  background-size: 100% 100%;
+  
+
+}
+
+
+.footer h1{
+  font-size: 3vw;
+  text-align: center;
+}
+
+
+.footer h6{
+  padding-top: 40px;
+  text-align: center;
+}
+
+.footer h5{
+  font-size: 20px;
+}
+.footer p{
+  padding-top: 24px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+p.mini{
+  font-size: 12px;
+  padding-top: 24px;
+  padding-bottom: 16px;
+  font-family: Montserrat;
+}
+
+.socials{
+  width: 8vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.socials img{
+  height: 32px;
+}
